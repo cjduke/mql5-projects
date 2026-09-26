@@ -1,0 +1,3 @@
+Hull Moving Average indicator displaying four periods on a single chart, colour-coded by direction (green for rising, red for falling, grey for flat). Implemented with a ring buffer and incremental running-sum math, so memory and CPU use remain constant regardless of chart history length. Buffer layout is documented and stable, making the indicator suitable for use with iCustom() from EAs. Supports 2, 3, or 4 Hull lines depending on configuration.
+
+Attribution: The Hull Moving Average calculation is built around the work of Mladen Rakic. The implementation in this project extends that foundation with the multi-period architecture, directional colouring, configurable number of Hull lines, stable buffer layout, and ring-buffer/memory-management features described above.
