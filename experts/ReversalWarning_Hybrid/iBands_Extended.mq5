@@ -6,7 +6,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, C.J. Weekes"
 #property copyright "Copyright 2026, Alfonso Golden Trader"
-#property version   "1.00""
+#property version   "1.00"
 #property description "Bollinger Bands with five output buffers."
 #property description "Adds upper-middle and lower-middle lines between the"
 #property description "standard outer bands and the middle band."
