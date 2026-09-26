@@ -1,0 +1,3 @@
+MultiTF_Hull_StateMachine_example (the Murrey/Hull EA)
+
+Multi-timeframe EA combining H6 Hull Moving Averages with H2 Stochastic, OsMA, and Hull20. Entries are built as a sequential three-stage state machine: Stochastic below 50, then OsMA below zero, then Hull20 turning green (bullish mirror for bearish). Trade is taken only when H6 Hull30 and Hull100 agree in direction and D1 ADX exceeds a threshold. Risk sized from H6 ATR (SL = 3× ATR, TP = 7.5× ATR). Two alternative exit mechanisms: H6 Hull60/Hull100 colour-match and Murrey Math proximity. Includes a D1 Hull validation gate for the second trade after a first loss. Requires the UnifiedHullMA indicator.(Note: This is for educational purposes only, it is itended as a deployable strategy for the live market)
