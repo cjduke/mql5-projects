@@ -17,7 +17,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, C.J. Weekes"
 #property copyright "Copyright 2026, Alfonso Golden Trader"
-#property version   "1.00""
+#property version   "1.00"
 #property description "Reversal warning EA combining indicator conditions"
 #property description "with candlestick patterns via OR logic."
 #property description "Reference implementation. No trading logic."
