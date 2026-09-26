@@ -3,7 +3,8 @@
 **What it does:** Detects swing highs and swing lows on a chart using 
 configurable left/right bar strength, plots them as arrows, and labels 
 each one with its structural classification — HH (higher high), HL 
-(higher low), LH (lower high), or LL (lower low).
+(higher low), LH (lower high), or LL (lower low).(This Indicator is designed
+to be used on the h4 time-frame)
 
 **What makes it non-trivial:**
 
