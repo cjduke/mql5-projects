@@ -1,1 +1,1 @@
-
+The Expert Advisor(GoldSilver_AnalysisEA) reproduces the same calculations inside the MetaTrader 5 Strategy Tester. It places no trades. Its purpose is to replay a historical window bar by bar so that the divergence pattern can be studied with hindsight, and so that illustrative entry and exit annotations can be reviewed against the price action that followed. All rolling calculations use only bars preceding the bar being evaluated, so the values shown at any point in the replay reflect what a trader could have known at that moment — not a retrofitted curve.
